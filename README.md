@@ -3,59 +3,72 @@
 [![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.11-3776AB.svg?logo=python&logoColor=white)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.x-EE4C2C.svg?logo=pytorch&logoColor=white)](https://pytorch.org/)
-[![LaTeX](https://img.shields.io/badge/Docs-LaTeX-008080.svg)](https://www.latex-project.org/)
+[![LaTeX](https://img.shields.io/badge/LaTeX-008080?logo=latex&logoColor=white)](https://www.latex-project.org/)
 
 Course material for the Multimodal Analysis track in the Master in Computer Science at CIMAT. The repository mixes deep learning, signal processing and metadata modeling to tackle core tasks in Music Information Retrieval (MIR).
 
-## Course Content
+## 📚 Course Content
 
-1. Fundamentals of deep learning for audio and music signals
-2. Feature engineering from audio, symbolic and social modalities
-3. Multimodal neural architectures and representation learning
-4. Evaluation, error analysis and model interpretability
-5. Applied project: multimodal recommendation and generation pipelines
+This course covers key areas of music informatio retrieval and deep learning including:
 
-## Repository Structure
+1. **Fundamentals of DL**
+   - Deep Feedforward Networks
+   - Back propagation for deep neural networks
+   - Regularization and optimization concepts for deep learning
+   - Pytorch for DL
+
+2. **Concepts of computational musicology and signal processing**
+   - Basic concepts of music and harmony
+   - Symbolic representations
+        - Sheet music, notes, MIDI, and piano roll
+   - Acoustic representations
+        - Introduction to audio signal processing
+        - Sinusoidal signals and sound
+        - Tonalities and center frequencies
+        - Time-frequency analysis
+- Fourier analysis and the spectrogram
+- Logarithmic frequency spectrograms: Chromagram, MEL, and CQT
+
+3. **DL architectures and multimodal analysis**
+- The encoder-decoder model
+- DL architectures: convolutional, recurrent, and transformer networks
+   - Transfer learning and pre-trained models
+   - Language models and large language models (LLMs)
+   - Multimodal data analysis: concepts and the Multimodal Transformer
+
+4. **Applications**
+   - Some examples will be covered, such as: genre classification, harmony analysis, transcription, etc.
+
+Translated with DeepL.com (free version)
+
+## 📁 Repository Structure
+
+The repository follows the next structure:
 
 ```
 multimodal-analysis-MIR/
-├── diapositivas/                  # Slide decks used during the lectures
-├── homework/                      # Graded assignments and supporting assets
-│   └── 01_intro_deep_learning/    # Homework 01 - FMA genre classification
-├── projects/
-│   └── final_project/             # Research survey for the capstone project
-├── referencias/                   # Key papers and background reading
-├── temario/                       # Syllabus and official course outline
+├── homework/
+│   └── 01_intro_deep_learning/
 ├── LICENSE
 └── README.md
 ```
 
-## Assignments
+## 📊 Assignments
 
 | Assignment | Topic | Key Methods | Link |
 |------------|-------|-------------|------|
 | 01 | Intro to Deep Learning for MIR | Feature fusion, MLP classifier, PyTorch training loop | [folder](./homework/01_intro_deep_learning/) |
+| 02 | ... | ... | ... |
+| 03 | ... | ... | ... |
 
-## Final Project Research Portfolio
-
-| Folder | Focus | Description |
-|--------|-------|-------------|
-| 01_datasets | MIR datasets | Survey of public datasets and collection notes for MIR experiments |
-| 02_mood_music | Emotion recognition | Articles covering multimodal affect detection for music |
-| 03_instrument_recognition | Source identification | Deep learning approaches for instrument tagging |
-| 04_multimodal_recommendation | Recommendation | Multimodal recommenders that merge audio, text and context |
-| 05_wavelets_audio | Wavelet analysis | Signal processing techniques for audio representation |
-| 06_music_generation | Music generation | Generative models for symbolic and audio synthesis |
-| overview.pdf | Project brief | Capstone description and suggested milestones |
-
-## Technical Stack
+## 🛠 Technical Stack
 
 - Python 3.11 with PyTorch 2.x, scikit-learn, numpy, pandas
 - Jupyter notebooks for exploration and experimentation
 - Conda environments for reproducibility (`environment.yml` files)
 - LaTeX and Markdown for reporting
 
-## Getting Started
+## 🚀 Getting Started
 
 ```
 cd homework/01_intro_deep_learning
@@ -64,14 +77,10 @@ conda activate mir-fma
 jupyter lab notebooks/Tarea01_Diego_Paniagua.ipynb
 ```
 
-Outputs are saved under `reports/`, trained weights under `models/`, and predictions under `submission/`.
-
-## Slides and References
-
-- `diapositivas/` holds introductory and deep learning slide decks
-- `temario/TSCD_Analisis-datos-multimodales.pdf` is the official syllabus
-- `referencias/` gathers foundational reading on optimization, regularization and MIR datasets
-
-## License
+## 📄 License
 
 This repository is released under the MIT License. See [LICENSE](LICENSE) for details.
+
+---
+
+*This repository represents academic work in .*
