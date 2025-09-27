@@ -39,8 +39,6 @@ This course covers key areas of music informatio retrieval and deep learning inc
 4. **Applications**
    - Some examples will be covered, such as: genre classification, harmony analysis, transcription, etc.
 
-Translated with DeepL.com (free version)
-
 ## 📁 Repository Structure
 
 The repository follows the next structure:
