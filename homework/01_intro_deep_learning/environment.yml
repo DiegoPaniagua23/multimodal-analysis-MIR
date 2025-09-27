@@ -1,0 +1,18 @@
+name: mir-fma
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - umap-learn
+  - pytorch>=2.2
+  - cpuonly
+  - pip
+  - pip:
+      - torchmetrics>=1.4
+      - ipykernel>=6.29
+      - imbalanced-learn>=0.11.0
