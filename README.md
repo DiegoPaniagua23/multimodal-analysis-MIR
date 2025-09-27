@@ -9,32 +9,32 @@ Course material for the Multimodal Analysis track in the Master in Computer Scie
 
 ## 📚 Course Content
 
-This course covers key areas of music informatio retrieval and deep learning including:
+This course covers key areas of music information retrieval and deep learning including:
 
 1. **Fundamentals of DL**
    - Deep Feedforward Networks
    - Back propagation for deep neural networks
    - Regularization and optimization concepts for deep learning
-   - Pytorch for DL
+   - PyTorch for DL
 
 2. **Concepts of computational musicology and signal processing**
    - Basic concepts of music and harmony
    - Symbolic representations
-        - Sheet music, notes, MIDI, and piano roll
+     - Sheet music, notes, MIDI, and piano roll
    - Acoustic representations
-        - Introduction to audio signal processing
-        - Sinusoidal signals and sound
-        - Tonalities and center frequencies
-        - Time-frequency analysis
-- Fourier analysis and the spectrogram
-- Logarithmic frequency spectrograms: Chromagram, MEL, and CQT
+     - Introduction to audio signal processing
+     - Sinusoidal signals and sound
+     - Tonalities and center frequencies
+     - Time-frequency analysis
+     - Fourier analysis and the spectrogram
+     - Logarithmic frequency spectrograms: Chromagram, MEL, and CQT
 
 3. **DL architectures and multimodal analysis**
-- The encoder-decoder model
-- DL architectures: convolutional, recurrent, and transformer networks
-   - Transfer learning and pre-trained models
-   - Language models and large language models (LLMs)
-   - Multimodal data analysis: concepts and the Multimodal Transformer
+   - The encoder-decoder model
+   - DL architectures: convolutional, recurrent, and transformer networks
+     - Transfer learning and pre-trained models
+     - Language models and large language models (LLMs)
+     - Multimodal data analysis: concepts and the Multimodal Transformer
 
 4. **Applications**
    - Some examples will be covered, such as: genre classification, harmony analysis, transcription, etc.
@@ -81,4 +81,4 @@ This repository is released under the MIT License. See [LICENSE](LICENSE) for de
 
 ---
 
-*This repository represents academic work in .*
+*This repository represents academic work for the Multimodal Analysis course at CIMAT.*
