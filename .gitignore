@@ -3,6 +3,7 @@ diapositivas/
 proyecto_final/
 referencias/
 temario/
+codigos/
 
 # PDF files
 *.pdf
@@ -64,7 +65,7 @@ logs/
 outputs/
 models/
 
-# Data 
+# Data
 data/
 datasets/
 
